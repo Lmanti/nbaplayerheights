@@ -1,6 +1,6 @@
 # Match NBA players By height 
 <br> </br>
-![proyect](https://github.com/Lmanti/nbaplayerheights/tree/master/src/img/evidence1.jpg?raw=true)
+![proyect](https://github.com/Lmanti/nbaplayerheights/master/src/img/evidence1.jpg?raw=true)
 
 
 ## About the project
