@@ -1,6 +1,6 @@
 # Match NBA players By height 
 <br> </br>
-![evidence1](https://github.com/Lmanti/nbaplayerheights/blob/master/src/img/evidence1.png?raw=true)
+![evidence2](https://github.com/Lmanti/nbaplayerheights/blob/master/src/img/evidence2.png?raw=true)
 
 
 ## About the project
@@ -17,7 +17,7 @@ NBA players whose sum of heights is equal to this.
 - Push the ball (button)
 - And let the magic begin.
 <br> </br>
-![evidence2](https://github.com/Lmanti/nbaplayerheights/blob/master/src/img/evidence2.png?raw=true)
+![evidence1](https://github.com/Lmanti/nbaplayerheights/blob/master/src/img/evidence1.png?raw=true)
 ![evidence3](https://github.com/Lmanti/nbaplayerheights/blob/master/src/img/evidence3.png?raw=true)
 ![evidence4](https://github.com/Lmanti/nbaplayerheights/blob/master/src/img/evidence4.png?raw=true)
 ![evidence5](https://github.com/Lmanti/nbaplayerheights/blob/master/src/img/evidence5.png?raw=true)
