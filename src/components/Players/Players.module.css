@@ -1,0 +1,173 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    height: 85%;
+    overflow-y: auto;
+    color: white;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.container::-webkit-scrollbar {
+    width: 15px;
+}
+.container::-webkit-scrollbar-track {
+    background-color: rgba(245, 222, 179, 0.267);
+    box-shadow: inset 0 0 6px rgba(160, 34, 34, 0.842);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.829); 
+    border-radius: 10px;
+}
+.container::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.877);
+    -webkit-box-shadow: inset 0 0 6px rgba(10, 10, 10, 0.849);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container > h1 {
+    padding: 5px;
+}
+
+.noMatch {
+    position: relative;
+    top: 50%;
+}
+
+/* Responsive */
+
+@media (max-width: 1024px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        width: 60%;
+        height: 85%;
+        overflow-y: auto;
+        color: white;
+        align-items: center;
+        backdrop-filter: blur(5px);
+    }
+
+    .container::-webkit-scrollbar {
+        width: 17px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 10%;
+        left: 3%;
+        width: 95%;
+        height: 85%;
+        overflow-y: auto;
+        color: white;
+        align-items: center;
+        backdrop-filter: blur(5px);
+    }
+
+    .container::-webkit-scrollbar {
+        width: 30px;
+    }
+
+    .container::-webkit-scrollbar-thumb {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.877);
+        -webkit-box-shadow: inset 0 0 6px rgba(10, 10, 10, 0.849);
+        background-color: white;
+        border-radius: 20px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 10%;
+        left: 3%;
+        width: 95%;
+        height: 85%;
+        font-size: x-small;
+        overflow-y: auto;
+        color: white;
+        align-items: center;
+        backdrop-filter: blur(5px);
+    }
+
+    .container::-webkit-scrollbar {
+        width: 30px;
+    }
+
+    .container::-webkit-scrollbar-thumb {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.877);
+        -webkit-box-shadow: inset 0 0 6px rgba(10, 10, 10, 0.849);
+        background-color: white;
+        border-radius: 20px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 10%;
+        left: 1%;
+        width: 97%;
+        height: 85%;
+        font-size: xx-small;
+        overflow-y: auto;
+        color: white;
+        align-items: center;
+    }
+
+    .container::-webkit-scrollbar {
+        width: 17px;
+    }
+
+    .container::-webkit-scrollbar-thumb {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.877);
+        -webkit-box-shadow: inset 0 0 6px rgba(10, 10, 10, 0.849);
+        background-color: white;
+        border-radius: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 10%;
+        left: 1%;
+        width: 97%;
+        height: 85%;
+        font-size: xx-small;
+        overflow-y: auto;
+        color: white;
+        align-items: center;
+    }
+
+    .container::-webkit-scrollbar {
+        width: 17px;
+    }
+
+    .container::-webkit-scrollbar-thumb {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.877);
+        -webkit-box-shadow: inset 0 0 6px rgba(10, 10, 10, 0.849);
+        background-color: white;
+        border-radius: 20px;
+        height: 20px;
+    }
+}

@@ -1,0 +1,166 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container > h1 {
+    color: white;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    align-self: center;
+    justify-self: center;
+    transition: all .3s;
+}
+
+.formChange {
+    top: 5px;
+}
+
+.searchBar {
+    width: 65px;
+    height: 40px;
+    padding: 3px;
+    font-size: larger;
+}
+
+.button {
+    margin-left: .2vw;
+    background-color: transparent;
+    border: none;
+
+}
+
+.button > img {
+    width: 100px;
+    height: 80px;
+}
+
+@media (max-width: 1366px) {
+    .formChange {
+        top: 1px;
+    }
+}
+
+@media (max-width: 720px) {
+    .form {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 40%;
+        left: 41%;
+        align-self: center;
+        justify-self: center;
+        transition: all .3s;
+    }
+
+    .formChange {
+        top: 10px;
+    }
+
+    .searchBar {
+        width: 110px;
+        height: 65px;
+        padding: 6px;
+        font-size: xx-large;
+    }
+
+    .button > img {
+        width: 130px;
+        height: 105px;
+    }
+}
+
+@media (max-width: 480px) {
+    .form {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 40%;
+        left: 45%;
+        align-self: center;
+        justify-self: center;
+        transition: all .3s;
+    }
+
+    .formChange {
+        top: 3px;
+    }
+
+    .searchBar {
+        width: 65px;
+        height: 35px;
+        padding: 4px;
+        font-size: x-large;
+    }
+
+    .button > img {
+        width: 100px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 375px) {
+    .form {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        align-self: center;
+        justify-self: center;
+        transition: all .3s;
+        backdrop-filter: blur(1px);
+    }
+
+    .formChange {
+        top: 1px;
+    }
+
+    .searchBar {
+        width: 65px;
+        height: 35px;
+        padding: 4px;
+        font-size: larger;
+    }
+
+    .button > img {
+        width: 85px;
+        height: 65px;
+    }
+}
+
+@media (max-width: 360px) {
+    .form {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        align-self: center;
+        justify-self: center;
+        transition: all .3s;
+        backdrop-filter: blur(1px);
+    }
+
+    .formChange {
+        top: 1px;
+    }
+
+    .searchBar {
+        width: 65px;
+        height: 35px;
+        padding: 4px;
+        font-size: larger;
+    }
+
+    .button > img {
+        width: 85px;
+        height: 65px;
+    }
+}

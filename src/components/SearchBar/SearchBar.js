@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react"
 import Players from "../Players/Players.js"
+import style from "./SearchBar.module.css"
+import ball from "../../img/button.png"
 
 const SearchBar = () => {
-    const [players, setPlayer] = useState([])
+  const [players, setPlayer] = useState([])
   const [input, setInput] = useState("")
   const [result, setResult] = useState([])
   
@@ -36,13 +38,16 @@ const SearchBar = () => {
     }
     if (aux.length) setResult(aux)
     else setResult("Empty")
+    setInput("")
   }
 
   return (
-    <div>
-        <form onSubmit={handleSubmit} >
-            <input type="number" onChange={handleInput} value={input} ></input>
-            <button>Search</button>
+    <div className={style.container} >
+        <form onSubmit={handleSubmit} className={result.length ? `${style.form} ${style.formChange}` : style.form} >
+            <input type="number" onChange={handleInput} value={input} className={style.searchBar} ></input>
+            <button className={style.button} >
+              <img src={ball} alt="" ></img>
+            </button>
         </form>
         <Players result={result} />
     </div>

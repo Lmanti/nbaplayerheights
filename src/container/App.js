@@ -1,9 +1,9 @@
 import SearchBar from '../components/SearchBar/SearchBar.js';
-import './App.css';
+import style from './App.module.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className={style.app}>
       <SearchBar />
     </div>
   );
