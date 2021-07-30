@@ -16,6 +16,8 @@ NBA players whose sum of heights is equal to this.
 - Enter a number
 - Push the ball (button)
 - And let the magic begin.
+
+*** You can also use the "npm test" command to run the tests.
 <br> </br>
 ![evidence1](https://github.com/Lmanti/nbaplayerheights/blob/master/src/img/evidence1.png?raw=true)
 ![evidence3](https://github.com/Lmanti/nbaplayerheights/blob/master/src/img/evidence3.png?raw=true)
